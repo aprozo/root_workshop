@@ -20,7 +20,7 @@ Then go after each subtutorial:
 - [01_SimpleHistogramGraphFunction.ipynb](01_SimpleHistogramGraphFunction.ipynb) - basics of data representation - `Histograms`
 - [02_ExcerciseCentralLimitTheorem.ipynb](02_ExcerciseCentralLimitTheorem.ipynb) - try using histogram in a simple experiment of Galton problem and then fit the distribution
 - [03_TreesAndFiles.ipynb](03_TreesAndFiles.ipynb) - how to save data in file and read it after + optionally `RDataFrames`
-- [04_InvariantMass.ipynb](04_InvariantMass.ipynb) - all tutorials combined and used for OpenData  $J/\psi$ decaying to 2 muons - final boss tutorial
+- [04_InvariantMass.ipynb](04_InvariantMass.ipynb) - all tutorials combined and used for [OpenData](https://opendata.cern.ch/record/5203)  $J/\psi$ decaying to 2 muons - final boss tutorial
 
 ---
 
