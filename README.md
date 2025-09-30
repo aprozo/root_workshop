@@ -26,8 +26,8 @@ Then go after each subtutorial:
 
 ## What are files for:
 
-- [.devcontainer](./devcontainer/) - special folder for running in Container (like Github Codespaces)
-- [data](./data/) - backup input data in case some problems
+- [.devcontainer](.devcontainer/) - special folder for running in Container (like Github Codespaces)
+- [data](data/) - backup input data in case some problems
 - [img](img/) - images used in notebooks
 - [.gitignore](.gitignore) - special file for git (not to track)
 - [.rootlogon](.rootlogon) - your own default style for CERN ROOT settings
