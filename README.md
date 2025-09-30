@@ -5,7 +5,36 @@
 
 This is a self-contained tutorial for STAR/EIC workshop aimed at learning some ROOT basics
 
+---
+# How to start:
+For successfull running on Github Codespaces one can submit an application for Free [Github Education](https://github.com/education) benefits.
+Then one can click on [Github Codespace button](https://codespaces.new/aprozo/root_workshop?quickstart=1)
+ to start a container (predefined software environment).
+ 
+### What is Jupyter notebook?
+One can start at [extra_jupyter.ipynb](extra_jupyter.ipynb) and optionally for more detailed extra info [extra_jupyter_more.ipynb](extra_jupyter_more.ipynb)
 
+## Physics tutorials:
+Then go after each subtutorial:
+- [00_Intro.ipynb](00_Intro.ipynb) what is ROOT
+- [01_SimpleHistogramGraphFunction.ipynb](01_SimpleHistogramGraphFunction.ipynb) - basics of data representation - `Histograms`
+- [02_ExcerciseCentralLimitTheorem.ipynb](02_ExcerciseCentralLimitTheorem.ipynb) - try using histogram in a simple experiment of Galton problem and then fit the distribution
+- [03_TreesAndFiles.ipynb](03_TreesAndFiles.ipynb) - how to save data in file and read it after + optionally `RDataFrames`
+- [04_InvariantMass.ipynb](04_InvariantMass.ipynb) - all tutorials combined and used for OpenData  $J/\psi$ decaying to 2 muons - final boss tutorial
+
+---
+
+## What are files for:
+
+- [.devcontainer](./devcontainer/) - special folder for running in Container (like Github Codespaces)
+- [data](./data/) - backup input data in case some problems
+- [img](img/) - images used in notebooks
+- [.gitignore](.gitignore) - special file for git (not to track)
+- [.rootlogon](.rootlogon) - your own default style for CERN ROOT settings
+- [00_* - 04_**.ipynb](00_Intro.ipynb) - actual tutorials
+- [README.md](README.md) - current displayed text page
+- [environment.yml](environment.yml) - container settings used for Binder
+- [extra_*.ipynb](extra_jupyter.ipynb) - supplementary material for what is Jupyter Notebook
 
 
 ---
